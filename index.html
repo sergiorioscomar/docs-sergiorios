@@ -5,18 +5,73 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>docs.sergiorios.com.ar</title>
   <style>
-    :root{--bg:#0b1020;--card:#11182b;--text:#e8eefc;--muted:#9db0d3;--accent:#7cc4ff}
-    *{box-sizing:border-box}
-    body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:linear-gradient(140deg,#070b16,#0b1020 40%,#111a33);color:var(--text)}
-    .wrap{max-width:900px;margin:0 auto;padding:40px 20px}
-    .logo{font-size:clamp(1.4rem,3vw,2rem);font-weight:800;color:var(--accent);letter-spacing:.3px}
-    .subtitle{color:var(--muted);margin-top:8px}
-    .card{margin-top:28px;background:var(--card);border:1px solid #1d2a46;border-radius:14px;padding:18px 20px}
-    .item{padding:14px 0;border-bottom:1px solid #1d2a46}
-    .item:last-child{border-bottom:none}
-    .item a{color:#b9dcff;text-decoration:none;font-size:1.1rem;font-weight:700}
-    .item a:hover{text-decoration:underline}
-    .desc{margin-top:6px;color:var(--muted)}\n    .footer{margin-top:18px;color:var(--muted);font-size:.95rem}
+    :root {
+      --bg: #0b1020;
+      --card: #11182b;
+      --text: #e8eefc;
+      --muted: #9db0d3;
+      --accent: #7cc4ff;
+      --line: #1d2a46;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: linear-gradient(140deg, #070b16, #0b1020 40%, #111a33);
+      color: var(--text);
+    }
+
+    .wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px 20px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .logo {
+      font-size: clamp(1.4rem, 3vw, 2rem);
+      font-weight: 800;
+      color: var(--accent);
+      letter-spacing: .3px;
+    }
+
+    .subtitle { color: var(--muted); margin-top: 8px; }
+
+    .card {
+      margin-top: 28px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 18px 20px;
+    }
+
+    .item { padding: 14px 0; border-bottom: 1px solid var(--line); }
+    .item:last-child { border-bottom: none; }
+
+    .item a {
+      color: #b9dcff;
+      text-decoration: none;
+      font-size: 1.1rem;
+      font-weight: 700;
+    }
+
+    .item a:hover { text-decoration: underline; }
+
+    .desc { margin-top: 6px; color: var(--muted); }
+
+    .footer {
+      margin-top: auto;
+      padding-top: 18px;
+      font-size: .85rem;
+      color: var(--accent);
+      text-align: left;
+      opacity: .95;
+    }
   </style>
 </head>
 <body>
@@ -29,22 +84,24 @@
         <a href="https://github.com/srioslc" target="_blank" rel="noopener noreferrer">GitHub</a>
         <div class="desc">Acceso al perfil de GitHub de Sergio para consultar repositorios y documentación.</div>
       </article>
-          <article class="item">
+
+      <article class="item">
         <a href="https://latincloudev.atlassian.net/browse/LAT-2375" target="_blank" rel="noopener noreferrer">Agregar IDS a botones de latincloud.com</a>
         <div class="desc">Implementacion de logica para agregar id dinamicos en botones de compra</div>
-      </article>          <article class="item">
+      </article>
+
+      <article class="item">
         <a href="https://latincloudev.atlassian.net/browse/LAT-2379" target="_blank" rel="noopener noreferrer">Agregar ID a boton en checkout</a>
         <div class="desc">Ticket de implementación para agregar identificador al botón en checkout.</div>
-      </article>          <article class="item">
+      </article>
+
+      <article class="item">
         <a href="https://latincloudev.atlassian.net/browse/LAT-2389" target="_blank" rel="noopener noreferrer">Integracion Brevo y WHMCS</a>
         <div class="desc">Seguimiento de integración entre Brevo y WHMCS.</div>
-      </article>    </section>
-      <footer class="footer">srios@nuveo.cloud</footer>`n  </main>
+      </article>
+    </section>
+
+    <footer class="footer">srios@nuveo.cloud</footer>
+  </main>
 </body>
 </html>
-
-
-
-
-
-
